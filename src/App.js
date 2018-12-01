@@ -1,8 +1,9 @@
-/* global React */
+import React from "react";
+import { render } from "react-dom";
 class App extends React.Component {
   render() {
-    return React.createElement("h1", {}, "Hi from React!");
+    return <h1>Hello from ReaKKKT</h1>;
   }
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
+render(<App />, document.getElementById("root"));

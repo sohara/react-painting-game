@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{css,js,jsx,html,json}\"",
     "format:check": "prettier --list-different \"src/**/*.{css,js,jsx,html,json}\"",
     "lint": "eslint \"**/*.{js,jsx}\"",
@@ -16,6 +17,10 @@
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.15.3"
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }

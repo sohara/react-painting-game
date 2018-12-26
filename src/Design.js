@@ -46,7 +46,7 @@ class Design extends React.Component {
             handleColorChange={this.handleColorChange}
           />
         </div>
-        <div class="flex-1 p-16 text-2xl">
+        <div className="flex-1 p-16 text-2xl">
           {JSON.stringify(
             this.state.picture.cells.map(cell => cell.color),
             null,
